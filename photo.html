@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Фотоальбом</title>
+    <link rel="stylesheet" href="photo.css">
+</head>
+<body>
+    <div class="verh">
+        <h1 class="zag1">Фотоальбом</h1>
+        <div>
+            <a href="cod.html">
+                <button class="naz"><img src="kart/naz.png" width="30" height="30"></button>
+            </a>
+        
+        </div>
+    </div>
+    <div class="obs">
+        <div class="t">
+            <p class="t1">Привет. Чтобы вставить фотографию, нажми на большую кнопку с фотоаппаратом. Затем нажми "Сохранить". После этого изображение должно появиться на сайте. Эта галерея видна только тебе, поэтому можешь вставлять, что хочешь. Эту страницу я делала намного быстрее, чем предыдущую. Эх, чудеса Ctrl+C Ctrl+V... Так что тут, как ты могла заметить, всё аналогично с картинной галереей.</p>
+        
+            <img class="kart" src="kart/k2.png" alt="">
+        </div>
+    </div>
+    <div class="vst">
+        
+            <div class="a">
+                <label for="fileInput" class="icon-btn">
+                    <img class="kart1" src="kart/foto.png" alt="Выбрать фото" width="150">
+                </label>
+                <input type="file" id="fileInput" accept="image/*" style="display:none;">
+            
+                <button class="btn" id="saveBtn" onclick="saveCurrent()">сохранить</button>
+            </div>
+
+        <div id="preview" style="margin:10px 0;"></div>
+
+        
+    </div>
+    <div class="galer">
+        <div id="gallery" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;"></div>
+    </div>
+    <script src="java2.js"> </script>
+</body>
+</html>

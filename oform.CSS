@@ -1,0 +1,316 @@
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'MyFont', sans-serif;
+}
+body {
+    background-image: url("kart/fon1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 1px;
+}
+
+.nast{ /* настройки */
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  
+}
+
+.zag{ /* заголовок */
+    background-color: rgba(225, 225, 225, 0.65);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.zag1{ /* заголовок текст */
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.text1{ /* текст */
+    color: black;
+    font-size: 12px;
+}
+
+.img1{ /* рисунок 1 */
+    width: 25%;
+    order: 2;
+}
+
+.a { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cnop { /* кнопки */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    order: 1;
+    max-width: 400px;
+}
+
+.cnop button{ /* оформление кнопок */
+    width: 125px;
+    height: 50px;
+    padding: 12px 0;
+    background: #E5BBFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+/* ЭТО ПРОИЗВЕДЕНИЯ, ДРУГОЙ КУСОК КОДА!!!! */
+
+.stih{ /* произведения */
+    margin-top: 10px;
+    background-color: rgba(225, 225, 225, 0.65);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.zag2{ /* заголовок текст */
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.s { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img2{ /* рисунок 1 */
+    width: 25%;
+    order: 1;
+}
+
+.text2{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 12px;
+    order: 2;
+}
+
+.sbut { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.z1{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 16px;
+    order: 1;
+}
+
+.buts {  
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    order: 2;
+}
+
+.buts img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/* ЭТО РИСУНКИ, ДРУГОЙ КУСОК КОДА!!!! */
+
+.kart{ /* рисунки */
+    margin-top: 10px;
+    background-color: rgba(225, 225, 225, 0.65);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.zag3{ /* заголовок текст */
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.k { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img3{ /* рисунок 1 */
+    width: 30%;
+    order: 2;
+}
+
+.text3{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 12px;
+    order: 1;
+}
+
+.kbut { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.z2{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 16px;
+    order: 2;
+}
+
+.butk {  
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    order: 1;
+}
+
+.butk img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/* ЭТО ФОТОГРАФИИ, ДРУГОЙ КУСОК КОДА!!!! */
+
+.photo{ /* фотографии */
+    margin-top: 10px;
+    background-color: rgba(225, 225, 225, 0.65);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.zag4{ /* заголовок текст */
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.p { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img4{ /* рисунок 1 */
+    width: 25%;
+    order: 1;
+}
+
+.text4{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 12px;
+    order: 2;
+}
+
+.pbut { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.z3{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 16px;
+    order: 1;
+}
+
+.butp {  
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    order: 2;
+}
+
+.butp img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+/* ЭТО ОЦЕНКИ, ДРУГОЙ КУСОК КОДА!!!! */
+
+.school{ /* оценки */
+    margin-top: 10px;
+    background-color: rgba(225, 225, 225, 0.65);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.zag5{ /* заголовок текст */
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.sch { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img5{ /* рисунок 1 */
+    width: 25%;
+    order: 2;
+}
+
+.text5{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 12px;
+    order: 1;
+}
+
+.schbut { /* впихивание меня с кнопками */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.z4{ /* текст */
+    display: grid;
+    color: black;
+    font-size: 16px;
+    order: 2;
+}
+
+.butsch {  
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    order: 1;
+}
+
+.butsch img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
